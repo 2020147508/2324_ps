@@ -1,6 +1,6 @@
 # 백준 2941 크로아티아 알파벳
 
-given_str = input()
+given_str = input() # input이 한 줄이면 꼭 sys 할 필요는 없는듯
 alph = 0
 i = 0
 
@@ -10,6 +10,7 @@ while (i < len(given_str)):
         alph += 1
         i += 2
     elif str_ == "dz":
+        # 게시판 보고 해결
         if i+2 < len(given_str) and given_str[i+2] == "=":
             alph += 1
             i += 3
