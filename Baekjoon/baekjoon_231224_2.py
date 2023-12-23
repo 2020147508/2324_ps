@@ -10,7 +10,7 @@ while (i < len(given_str)):
         alph += 1
         i += 2
     elif str_ == "dz":
-        # 게시판 보고 해결
+        # 게시판 보고 해결 : dz=dz 경우
         if i+2 < len(given_str) and given_str[i+2] == "=":
             alph += 1
             i += 3
