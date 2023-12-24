@@ -1,5 +1,7 @@
 # 백준 1463 1로 만들기
 
+# 질문 게시판 보고 해결
+
 num = int(input())
 data = [0 for i in range(10**6)]
 data[1] = 1
