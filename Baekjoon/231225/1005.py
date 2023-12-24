@@ -1,5 +1,7 @@
 # 백준 1005 ACM Craft
 
+# 기간 : 23.12.24 ~
+
 n = int(input())
 
 def min_time(dest, list_of_buildings, buil, min_time_list):
