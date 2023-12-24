@@ -10,7 +10,7 @@ for i in range(iter_):
     for j in range(len(str)):
         if (not_group_vocab == 0):
             curr = ord(str[j])
-            list_index = curr-97
+            list_index = curr-97 # 아마 sys.stdin.readline() 하면 .rstrip()을 하지 않는 이상 개행 같이 들어옴 -> IndexError 그래서 난 듯!!
             if (check[list_index] == -1):
                 check[list_index] = j
             elif (check[list_index] == j-1):
