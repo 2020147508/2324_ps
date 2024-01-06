@@ -16,9 +16,9 @@ for i in range(10000000):
 diff = curr_num - n
 front = 0
 
-if total_num % 2 != 0: # total_num이 홀수이면
+if total_num % 2 != 0: # total_num이 홀수일때
     front = total_num - 1 - diff 
-else: # total_num이 짝수이면
+else: # total_num이 짝수일때
     front = 1 + diff
 
 back = total_num - front
