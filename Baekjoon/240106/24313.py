@@ -2,7 +2,7 @@
 
 a, b = map(int, input().split())
 c = int(input())
-n_zro = int(input())
+n_zero = int(input())
 
 if (c-a < 0):
     print(0)
@@ -12,7 +12,7 @@ elif (c-a == 0):
     else:
         print(0)
 else:
-    if (c-a) * n_zro - b >= 0:
+    if (c-a) * n_zero - b >= 0:
         print(1)
     else:
         print(0)
