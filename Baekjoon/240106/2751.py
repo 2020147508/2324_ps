@@ -1,5 +1,7 @@
 # 백준 2751 수 정렬하기 2
 
+# 질문 게시판 보고 해결
+
 import sys
 n = int(sys.stdin.readline()) # 시간초과 나서 input()에서 sys.stdin.readline()으로 변경
 
