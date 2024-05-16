@@ -7,7 +7,7 @@
 using namespace std;
 
 struct inst {
-    int age; // string 아니라 int로 해야 두 자리 수, 세 자리 수 제대로 비교할 수 있음
+    int age; // string이 아닌, int로 해야 두 자리 수, 세 자리 수 제대로 비교할 수 있음
     string name;
     int index;
 };
