@@ -1,4 +1,4 @@
-// 백준 1181 나이순 정렬
+// 백준 10814 나이순 정렬
 
 #include <iostream>
 #include <string>

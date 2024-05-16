@@ -1,3 +1,5 @@
+// 2024 KAKAO WINTER INTERNSHIP : 가장 많이 받은 선물
+
 #include <iostream>
 #include <string>
 #include <vector>
