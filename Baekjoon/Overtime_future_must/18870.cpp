@@ -1,7 +1,7 @@
 // 백준 18870 좌표 압축
 // 240518 시간 초과
 // 구글링으로 해결
-// 좌표 압축 개념, lower_bound, erase, unique 함수
+// 좌표 압축 개념, lower_bound, erase, unique 함수 등
 
 #include <iostream>
 #include <algorithm> 
